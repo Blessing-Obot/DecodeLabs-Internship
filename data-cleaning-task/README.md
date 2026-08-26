@@ -22,7 +22,7 @@ The dataset also captures marketing and promotional activity. The Referral Sourc
 | `PaymentMethod` | Text | The method used by the customer to pay for the order |
 | `OrderStatus` | Text | The status of the order, such as pending, shipped, delivered, cancelled, or returned |
 | `TrackingNumber` | Text | A unique number used to track the delivery of an order | 
-| `ItemsInCart` | Whole Numbers | The number of items that were in the customer's cart when the order was placed |
+| `ItemsInCart` | Whole Number | The number of items that were in the customer's cart when the order was placed |
 | `CouponCode` | Text | The discount or promotional code used by the customer when placing the order. This field may be blank when no coupon code was used |
 | `ReferralSource` | Text | The channel or source through which the customer was referred to the store, such as Google, Facebook, Instagram, Email, or Referral | 
 | `TotalPrice` | Decimal Number | The total amount paid for the products in the order. It is calculated by multiplying the quantity ordered by the unit price |
