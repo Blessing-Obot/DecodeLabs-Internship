@@ -1,7 +1,7 @@
 # DATA CLEANING REPORT
 
 ## Overview
-The dataset was extracted from Decode Labs platform. It contains 14 columns and approximately 1,200 records, with Order IDs running sequentially from ORD200000 to ORD201199 with no gaps. 
+The dataset was extracted from Decode Labs platform. It contains 14 columns and 1,200 records, with Order IDs running sequentially from ORD200000 to ORD201199 with no gaps. 
 The dataset provides useful information on customer purchasing behavior, order fulfillment, sales performance, and marketing channels within the platform. The dataset includes both categorical and numerical variables. Categorical variables include Order Status, Payment Method, Product, Coupon Code, and Referral Source, while numerical variables include Quantity, Unit Price, Items in Cart, and Total Price. These fields provide a basis for analyzing sales patterns, customer behavior, payment preferences, order outcomes, and marketing performance.
 
 The Customer ID is an alphanumeric identifier assigned to each customer. Since a customer can place multiple orders over time, the Customer ID can appear across multiple records. This makes it possible to identify repeat customers and analyze their purchasing patterns. Each transaction also has a unique Order ID, which serves as the main reference for an order. It can be used to track an order from the date it was placed through its fulfillment status, such as Delivered, Shipped, Returned, Cancelled, or Pending. A Tracking Number is also recorded for each order to support shipment tracking.
